@@ -10,7 +10,6 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
-@RequestMapping("/employee")
 public class EmployeeResource {
     private final EmployeeService employeeService;
 
